@@ -82,11 +82,9 @@ nav a:hover .code {
   color: var(--main-purple);
 }
 
-/* @media screen and (max-width: 300px) {
-  .nav-list {
-    max-width: 100px;
-  }
-} */
+.education-text {
+  margin-bottom: 20px;
+}
 
 /* Welcome section */
 .welcome-section {
@@ -96,7 +94,7 @@ nav a:hover .code {
   align-items: center;
   text-align: justify;
   width: 100%;
-  height: 100vh;
+  height: 60vh;
   background-color: var(--main-white);
 }
 
@@ -266,9 +264,11 @@ span {
 
 .project-image {
   /* height: calc(100% - 68px); */
-  width: 100%;
-  object-fit: cover;
+  width: 300px;
+  height: 200px;
+  margin: 0 auto;
   border-radius: 5px;
+  
 }
 
 .project-title-row {
@@ -287,8 +287,9 @@ span {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  font-size: 13px;
-  font-style: italic;
+  font-size: 15px;
+  font-weight: bold;
+  color: var(--main-purple);
   border-top: 1px solid var(--main-shadow);
   border-bottom: 1px solid var(--main-shadow);
 }
@@ -338,7 +339,7 @@ span {
   align-items: center;
   text-align: center;
   max-width: 100%;
-  height: 80vh;
+  height: 50vh;
   padding: 0px 20px;
   background: var(--main-white);
 }
